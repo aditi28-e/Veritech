@@ -1,1 +1,113 @@
+<!--HTML CODE-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Development Course</title>
+  <link rel="stylesheet" href="page.css">
+</head>
+<head>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+  </head>
+  
+<body>
+  <header>
+    <h1>Web Development Course</h1>
+    <p>“Develop a passion for learning. If you do, you will never cease to grow.”<br>
+        Anthony J. D'Angelo</p>
+  </header>
+
+  <section id="imageSection">
+    <img src="img1.jpg" alt="Web Development Image">
+  </section>
+
+  <section id="imageSection">
+    <img src="img3.jpg" alt="Web Development Image">
+    <div class="graphics">
+      <i class="fas fa-laptop-code"></i>
+      <i class="fas fa-paint-brush"></i>
+      <i class="fas fa-file-code"></i>
+    </div>
+  </section>
+
+  <section id="features">
+    <h2>Course Features</h2>
+    <ul>
+      <li>Comprehensive HTML, CSS, and JavaScript coverage</li>
+      <li>Hands-on projects and exercises</li>
+      <li>Interactive learning with quizzes</li>
+      <li>Expert instructors with real-world experience</li>
+      <li>Build websites with HTML & CSS</li>
+      <li>Build backend servers & APIs with Node and Express</li>
+      <li>Work with NoSQL databases like MongoDB</li>
+      <li>Build full-stack web apps with Facebook's React Framework</li>
+      <li>Build mobile-friendly websites with Bootstrap 4 & CSS</li>
+    </ul>
+  </section>
+
+  <section id="signup">
+    <h2>Sign Up Now!</h2>
+    <h2>Happy Learning :)</h2>
+    <form id="signupForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="Mobile Number">Mobile Number:</label>
+      <input type="number" id="Mobile Number" required>
+
+      <label for="College name:">College name:</label>
+      <input type="text" id="College name:" required>
+
+      <label for="Password">Password :</label>
+      <input type="password" id="Password" required>
+
+      <button type="submit">Sign Up</button>
+    </form>
+  </section>
+
+  <section id="testimonials">
+    <h2>Student Testimonials</h2>
+    <div class="testimonial">
+      <p>"This course changed my life! I now build websites with confidence."</p>
+      <cite>- Mathew</cite>
+    </div>
+    <div class="testimonial">
+      <p>"The instructors are knowledgeable, and the projects are practical."</p>
+      <cite>- Roman Lawrance </cite>
+    </div>
+
+    <div class="testimonial">
+        <p>"I enrolled in the Web Development Course, and it exceeded my expectations. The hands-on projects and real-world examples provided a solid foundation. Now, I'm confidently building websites!"</p>
+        <cite>- Damon</cite>
+      </div>
+    
+      <div class="testimonial">
+        <p>"The instructors are not only knowledgeable but also passionate about teaching. The interactive learning approach and comprehensive coverage of HTML, CSS, and JavaScript make this course stand out. Highly recommended!"</p>
+        <cite>- Katherine </cite>
+      </div>
+    
+      <div class="testimonial">
+        <p>"I was a complete beginner before joining the course. The step-by-step guidance and practical exercises helped me grasp complex concepts. Today, I am proud to call myself a web developer!"</p>
+        <cite>- Seina Rosaliya Callos</cite>
+      </div>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Web Development Course. All rights reserved.</p>
+  </footer>
+
+  <script src="page.js"></script>
+</body>
+</html>
 
